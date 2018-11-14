@@ -1,0 +1,55 @@
+body{
+    background:#bdc3c7;
+}
+
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: orange;
+}
+li{
+    color: #131AE8;
+}
+p{
+    background: yellow;
+}
+input{
+    border: 3px solid red;
+}
+
+.hello{
+    background: #ffffff;
+}
+
+.special{
+    border: 2px solid blue;
+}
+div p{
+    font-size: 25px;
+}
+input[type="text"]{
+    background: gray;
+}
+div:nth-of-type(3) p{
+    background: pink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2)
+{
+    border: 5px solid white;
+}
+p{
+    text-transform: uppercase;
+}
+p #special{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
